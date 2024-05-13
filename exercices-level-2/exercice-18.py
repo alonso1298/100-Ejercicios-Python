@@ -3,3 +3,13 @@ Suele hacer venta por correo y la empresa de logística les cobra por peso de ca
 así que deben calcular el peso de los payasos y muñecas que saldrán en cada paquete a demanda. 
 Cada payaso pesa 112 g y cada muñeca 75 g. Escribir un programa que lea el número de payasos y muñecas vendidos 
 en el último pedido y calcule el peso total del paquete que será enviado.'''
+
+peso_payaso = 112
+peso_muneca = 75
+
+num_payasos = int(input('Inggresa el numeo de payasos en el paquete: '))
+resultaso_payaso = num_payasos * peso_payaso
+num_muneca = int(input('Inggresa el numeo de muñecas en el paquete: '))
+resultado_muneca = num_muneca * peso_muneca
+
+print(f'El peso total del paquete es de {resultaso_payaso + resultado_muneca}g. ')

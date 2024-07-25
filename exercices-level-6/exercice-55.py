@@ -3,3 +3,19 @@
  pregunte al usuario la nota que ha sacado en cada asignatura, y después las muestre por pantalla 
  con el mensaje En <asignatura> has sacado <nota> donde <asignatura> es cada una des las asignaturas
   de la lista y <nota> cada una de las correspondientes notas introducidas por el usuario.'''
+
+
+asignaturas = ['Matemáticas', 'Física', 'Química', 'Historia', 'Lengua']
+
+notas = {}
+
+for asignatura in asignaturas:
+    nota = input(f'Introduce la calificacion que sacaste en: {asignatura}: ')
+    notas[asignatura] = nota
+
+for asignatura, nota in notas.items():
+    print(f'En la {asignatura} has sacado {nota}')
+
+
+
+
